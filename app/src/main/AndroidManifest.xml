@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="0.3.4">
+
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="34" />
+
+    <application
+        android:label="BiliIntlThemeFix"
+        android:hasCode="true">
+
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="阻止国际版哔哩哔哩冷启动时用云端空数据覆盖本地已购买的个性装扮主题" />
+        <meta-data android:name="xposedminversion" android:value="93" />
+    </application>
+</manifest>
